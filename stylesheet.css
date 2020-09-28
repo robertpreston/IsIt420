@@ -1,0 +1,79 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 20px;
+    margin-bottom: 40px;
+    background-color: mediumseagreen;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 15em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+a {
+    color: lawngreen;
+}
+
+a:hover {
+    text-decoration: none;
+    color: mediumspringgreen;
+}
+
+#music_p {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+@media (min-height: 510px) and (min-width: 385px) {
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+    }
+}
+
+@media (min-height: 510px) and (max-width: 385px) {
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+    }
+}
+
+@media (max-height: 555px) and (max-width: 345px) {
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+    }
+}
+
+@media (max-height: 577px) and (max-width: 303px) {
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+    }
+}
+
+@media (max-height: 510px) and (max-width: 385px) {
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+    }
+}
