@@ -179,7 +179,10 @@ function randomMusic() {
         ["The Dolly Rocker Movement - A Purple Journey Into The Mod Machine", "https://www.youtube.com/watch?v=gKMJSrj0_xo"],
         ["The Sonic Dawn - Perception", "https://www.youtube.com/watch?v=O4H02KSZrsI"],
         ["The Sonic Dawn - Eclipse", "https://www.youtube.com/watch?v=pdRacB8gsb0"],
-        ["Mystic Braves - The Great Unknown", "https://www.youtube.com/watch?v=MZwZQQPpUr8"]
+        ["Mystic Braves - The Great Unknown", "https://www.youtube.com/watch?v=MZwZQQPpUr8"],
+        ["il Baskerville - La Rivoluzione", "https://www.youtube.com/watch?v=Ivd9IVBhb_k"],
+        ["il Baskerville - Statistiche", "https://www.youtube.com/watch?v=6hms4fDnmQs"],
+        ["Borer Treetops - Addictions", "https://www.youtube.com/watch?v=VhyV4zXoh5I"]
     ];
     var rand = musicList[Math.floor(Math.random() * musicList.length)];
 
